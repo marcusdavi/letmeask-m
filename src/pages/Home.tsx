@@ -30,23 +30,24 @@ export function Home() {
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo-real</p>
       </aside>
-      <main className="main-content">
-
-        <img src={logoImg} alt="Logo da aplicação Letmeask" />
-        <button onClick={handleCreateRoom} className="create-room">
-          <img src={googleIconImg} alt="Logo do Google" />
-          Crie sua sala com o Google
-        </button>
-        <div className="separator">Ou entre em uma sala</div>
-        <form action="">
-          <input
-            type="text"
-            placeholder="Digite o código da sala"
-          />
-          <Button type="submit">
-            Entrar na sala
-          </Button>
-        </form>
+      <main>
+        <div className="main-content">
+          <img src={logoImg} alt="Logo da aplicação Letmeask" />
+          <button onClick={handleCreateRoom} className="create-room">
+            <img src={googleIconImg} alt="Logo do Google" />
+            Crie sua sala com o Google
+          </button>
+          <div className="separator">Ou entre em uma sala</div>
+          <form action="">
+            <input
+              type="text"
+              placeholder="Digite o código da sala"
+            />
+            <Button type="submit">
+              Entrar na sala
+            </Button>
+          </form>
+        </div>
       </main>
     </div>
   )
