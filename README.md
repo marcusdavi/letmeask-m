@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="image/notebookHome.png" witdh="375" height="325">
+  <img src="image/notebookHome.png" witdh="325" height="285">
  </p>
 
 # Let Me Ask
