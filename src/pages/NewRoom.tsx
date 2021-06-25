@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom'
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import { useAuth } from '../hooks/useAuth'
-import { Button } from '../components/Button'
+import { Button } from '../components/Button/Button'
 import { database } from '../services/firebase'
 import '../styles/auth.scss'
 
@@ -27,7 +27,7 @@ export function NewRoom() {
       authorId: user?.id,
     })
 
-    history.push(`/rooms/${firebaseRoom.key}`)
+    history.push(`/admin/rooms/${firebaseRoom.key}`)
 
   }
 
